@@ -38,8 +38,6 @@ private fun train(
     train: OnHeapDataset,
     test: OnHeapDataset
 ) {
-
-
     val model = Sequential.of(
         Input(28, 28, 1),
         Flatten(),
