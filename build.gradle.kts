@@ -12,6 +12,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation ("org.jetbrains.kotlinx:kotlin-deeplearning-tensorflow:0.5.1")
+    implementation ("org.jetbrains.kotlinx:kotlin-deeplearning-onnx:0.5.1")
+    implementation ("org.jetbrains.kotlinx:kotlin-deeplearning-visualization:0.5.1")
 }
 
 tasks.test {
